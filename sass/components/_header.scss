@@ -1,0 +1,113 @@
+.header {
+    background-color: white;
+    padding: 32px 0;
+    border-bottom: 1px solid #ececec;
+  }
+  
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-list {
+    display: flex;
+    margin-left: 93px;
+  }
+  
+  .header__item {
+    margin-right: 50px;
+  }
+  
+  .header-contacts {
+    display: flex;
+  }
+
+  .header-contacts {
+    a {
+      transition: 0.5s;
+      &:hover {
+        color: var(--accent-color);
+      }
+    }
+  }
+  
+  .header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    transition: 0.5s;
+    padding: 32px 0;
+    &:hover {
+      color: var(--accent-color);
+    };
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+  
+  .header-contact-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    fill: #757575;
+    transition: 0.5s;
+  }
+  
+  .header__mail {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+  }
+  
+  .header__tel {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+  }
+  
+  .header__mail, .header__tel {
+    &:hover path {
+      fill: #2196f3;
+    }
+  }
+  
+  .header-contact-icon {
+    margin-right: 10px;
+    transition: .5s;
+  }
+  
+  .header-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--first-btn-color);
+  }

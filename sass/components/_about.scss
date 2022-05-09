@@ -1,0 +1,46 @@
+.about {
+    padding-top: 94px;
+  }
+  
+  .about-svg-wrapper {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f4fa;
+  }
+  
+  .about-list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .about-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+  }
+  
+  .about-after-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+  
+  .about-item {
+    width: 25%;
+  }
+  
+  .about-svg-wrapper {
+    margin-bottom: 30px;
+  }

@@ -1,0 +1,52 @@
+.clients-title {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+  }
+  
+  .clients-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .client-card + .client-card {
+    margin-left: 30px;
+  }
+  
+  .client-wrapper {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+  
+  .client-logo path {
+    fill: #afb1b8;
+    transition: 0.5s;
+  }
+  
+  .client-link:hover .client-wrapper {
+    border: 1px solid #2196f3;
+  }
+  
+  .client-link:hover .client-logo path {
+    fill: #2196f3;
+  }
+  
+  .client-link:focus .client-wrapper {
+    border: 1px solid #2196f3;
+  }
+  
+  .client-link:focus .client-logo path {
+    fill: #2196f3;
+  }
