@@ -51,7 +51,13 @@
     };
     &:focus {
       color: var(--accent-color);
-    }
+    };
+      a&:hover {
+      color: var(--accent-color);
+      };
+      a&:focus {  
+        color: var(--accent-color);
+      }
   }
   
   .header-contact-icon {
