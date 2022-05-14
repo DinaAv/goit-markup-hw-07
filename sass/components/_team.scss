@@ -87,18 +87,17 @@
     transition: 0.5s;
   }
   
-  .team-soc-link:hover {
-    background-color: #2196f3;
-  }
-  
-  .team-soc-link:focus {
-    background-color: #2196f3;
-  }
-  
-  .team-soc-link:hover .team-soc-icon {
-    fill: #ffffff;
-  }
-  
-  .team-soc-link:focus .team-soc-icon {
-    fill: #ffffff;
+  .team-soc-link {
+    &:hover {
+      background-color: #2196f3;
+      .team-soc-icon {
+        fill: #ffffff;
+      }
+    }
+    &:focus {
+      background-color: #2196f3;
+      .team-soc-icon {
+        fill: #ffffff;
+      }
+    }
   }
